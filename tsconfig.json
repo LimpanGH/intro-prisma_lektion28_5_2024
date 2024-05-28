@@ -9,4 +9,8 @@
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> upstream/main
