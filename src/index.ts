@@ -31,7 +31,7 @@ async function main() {
 // READ ALL 
 const users = await prisma.user.findMany({
     include: {
-        Post: true
+        post: true
     }
 }) 
 console.log(JSON.stringify(users))

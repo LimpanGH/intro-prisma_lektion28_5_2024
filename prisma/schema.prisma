@@ -18,7 +18,7 @@ model User {
   username String
   password String
   email    String @unique //prisma sköter att det inte blir dubletter
-  Post     Post[]
+  post     Post[]
 }
 
 model Post {
